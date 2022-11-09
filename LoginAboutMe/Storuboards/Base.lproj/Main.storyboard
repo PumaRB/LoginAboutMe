@@ -64,12 +64,18 @@
                                 <color key="tintColor" systemColor="systemIndigoColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="I forgot password"/>
+                                <connections>
+                                    <action selector="forgotPasswordButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nXW-Tn-5N9"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dzh-Yz-mpD">
                                 <rect key="frame" x="132.66666666666666" y="342.66666666666669" width="124.99999999999997" height="34.333333333333314"/>
                                 <color key="tintColor" systemColor="systemIndigoColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="I forgot name"/>
+                                <connections>
+                                    <action selector="forgotNameButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Afi-UC-3Ro"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EUg-5G-saW">
                                 <rect key="frame" x="20" y="464" width="350" height="48"/>
@@ -78,7 +84,10 @@
                                 </constraints>
                                 <color key="tintColor" systemColor="systemIndigoColor"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Log In"/>
+                                <connections>
+                                    <action selector="logInButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="D4g-86-sdl"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -97,6 +106,10 @@
                             <constraint firstItem="SSb-jv-oDx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="yHe-TJ-8fz"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="nameTF" destination="g0S-qj-poV" id="Ujh-xq-mk0"/>
+                        <outlet property="passwordTF" destination="5AM-MQ-bZ5" id="lyB-8J-0jc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -121,6 +134,9 @@
                                 <color key="tintColor" red="0.92128556969999997" green="0.36779010680000002" blue="0.2662299266" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="square.and.arrow.up" catalog="system" title="Log out" imagePadding="4"/>
+                                <connections>
+                                    <action selector="logOutButton:" destination="SBR-F8-YzY" eventType="touchUpInside" id="ueO-DT-wEj"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="n1g-z2-Duj"/>
@@ -134,6 +150,9 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Welcome" id="uit-Yb-Zxc"/>
+                    <connections>
+                        <outlet property="welcomeLabel" destination="aWN-Sk-3Fi" id="UNu-xM-VpR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DjD-lX-zvd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

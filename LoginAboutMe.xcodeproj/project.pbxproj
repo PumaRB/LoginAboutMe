@@ -13,7 +13,7 @@
 		5A1DF1AC291C17DB00C71BB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A1DF1AA291C17DB00C71BB7 /* Main.storyboard */; };
 		5A1DF1AE291C17DC00C71BB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A1DF1AD291C17DC00C71BB7 /* Assets.xcassets */; };
 		5A1DF1B1291C17DC00C71BB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A1DF1AF291C17DC00C71BB7 /* LaunchScreen.storyboard */; };
-		5A1DF1BC291C18D000C71BB7 /* LogInModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1DF1BB291C18D000C71BB7 /* LogInModel.swift */; };
+		5A1DF1BC291C18D000C71BB7 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1DF1BB291C18D000C71BB7 /* UserModel.swift */; };
 		5A1DF1C0291C218E00C71BB7 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1DF1BF291C218E00C71BB7 /* WelcomeViewController.swift */; };
 		5A1DF1C2291C21C700C71BB7 /* AboutMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1DF1C1291C21C700C71BB7 /* AboutMeViewController.swift */; };
 		5A1DF1C4291C21EF00C71BB7 /* HobbiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1DF1C3291C21EF00C71BB7 /* HobbiesViewController.swift */; };
@@ -29,7 +29,7 @@
 		5A1DF1AD291C17DC00C71BB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A1DF1B0291C17DC00C71BB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5A1DF1B2291C17DC00C71BB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5A1DF1BB291C18D000C71BB7 /* LogInModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInModel.swift; sourceTree = "<group>"; };
+		5A1DF1BB291C18D000C71BB7 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		5A1DF1BF291C218E00C71BB7 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		5A1DF1C1291C21C700C71BB7 /* AboutMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeViewController.swift; sourceTree = "<group>"; };
 		5A1DF1C3291C21EF00C71BB7 /* HobbiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbiesViewController.swift; sourceTree = "<group>"; };
@@ -109,7 +109,7 @@
 		5A1DF1BD291C18D300C71BB7 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				5A1DF1BB291C18D000C71BB7 /* LogInModel.swift */,
+				5A1DF1BB291C18D000C71BB7 /* UserModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -196,7 +196,7 @@
 				5A1DF1A9291C17DB00C71BB7 /* LogInViewController.swift in Sources */,
 				5A1DF1C0291C218E00C71BB7 /* WelcomeViewController.swift in Sources */,
 				5A1DF1C6291C220A00C71BB7 /* FigureSkatingViewController.swift in Sources */,
-				5A1DF1BC291C18D000C71BB7 /* LogInModel.swift in Sources */,
+				5A1DF1BC291C18D000C71BB7 /* UserModel.swift in Sources */,
 				5A1DF1A5291C17DB00C71BB7 /* AppDelegate.swift in Sources */,
 				5A1DF1C2291C21C700C71BB7 /* AboutMeViewController.swift in Sources */,
 				5A1DF1C4291C21EF00C71BB7 /* HobbiesViewController.swift in Sources */,
